@@ -7,26 +7,40 @@
 </head>
 <body style="background-color: aqua;">
     <div>
-        <div>
-        <p style="background-color: pink;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim unde officia molestiae labore? <b>Placeat</b> a quasi amet repellat perferendis eligendi quaerat, dolorum dolore quam accusamus voluptates voluptatibus. Nobis, ab minima.
-        </p> 
-        </div>
-        <h1 style="color: rgb(231, 142, 9),;">hello world</h1>
-
-    </div>
     <div style="display: flex; justify-content: center; align-items: center; background-color: rgb(176, 120, 157); flex-wrap: wrap; flex-direction: column;">
-        <h1 style="flex-basis: 100%;">contact us</h1>
+        <h1 style="flex-basis: 100%;">User Details</h1>
         <form action="contact-us.php">
-        <label for="firstname">firstname</label>
-        <input type="text" id="firstname" required>
-        <label for="firstname">Password</label>
-        <input type="password" id="password" required>
-        <input type="submit" value="submit">
-    </form>
+            <div style="display: flex; fl;"></div>
+    
+            <label>User Name</label>
+            <input type="text" id="username" required>
+            <br><br>
+            <label>Gender</label>
+            <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            </select>
+            <br><br>
+            <label>date of birth</label>
+            <input type="date" id="dob" required>
+            <br><br>
+            <label>Mobile Number</label>
+            <input type="number" id="mobilenumber" required>
+            <br><br>
+            <label>Address</label>
+            <input type="text" id="address">
+            <br><br>
+            <label>Password</label>
+            <input type="password" id="pswd" required>
+            <br><br>
+            <input type="submit" value="submit">
+            <h4>For any type of query <a href="contactus.html" target="_main">Contact Us</a></h4>
+        </form>
    
     </div>
      <ul>
-        <a href="cofee.html"><li>coffee</li></a>
+        <a href="imagelink.html"><li>coffee</li></a>
         <li>tea</li>
         <li>water</li>
     </ul>
